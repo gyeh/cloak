@@ -1,0 +1,35 @@
+{
+    "name": "Cloak",
+    "version": "0.5.1",
+    "minimum_chrome_version": "6",
+    "description": "Simplify the Web.  Block unwanted images or elements from any page.",
+    "options_page": "options.html",
+    "background_page": "background.html",
+    "permissions": [
+        "tabs"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["lib/jquery-1.6.1.min.js", "lib/keanu.js", "js/cloak.js", "js/content_scripts/cloak.sync.js", "js/content_scripts/cloak.static.js"],
+            "run_at": "document_start"
+        },
+        {
+            "matches": ["<all_urls>"],
+            "js": ["js/content_scripts/cloak.dynamic.js", "js/content_scripts/cloak.select.js"],
+            "run_at": "document_end"
+        }
+    ],
+    "browser_action": {
+        "name": "Cloak",
+        "default_title": "Cloak",
+        "default_icon": "img/icon-128_inactive.png",
+        "popup": "popup.html"
+    },
+    "icons": { 
+        "16": "img/icon-16.png",
+        "48": "img/icon-48.png",
+        "128": "img/icon-128.png" 
+    }
+}
+

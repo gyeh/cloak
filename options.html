@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="css/options.css" type="text/css" media="screen" charset="utf-8">
+        <link rel="icon" type="image/png" href="img/icon-48.png" />
+        <title>Cloak Options</title>
+    </head>
+    <body>
+        <div id="options">
+            <img id="icon" title="Cloak" src="img/icon-128.png"/>
+            <h1>Cloak Options</h1>
+            <!-- <ul id="help"> -->
+                <!-- <li> -->
+                    <!-- <strong>Remove</strong>: Element is removed from page and will not take up space. -->
+                <!-- </li> -->
+                <!-- <li> -->
+                    <!-- <strong>Invisible</strong>: Element will lose visibility, but take up space.  This might be necessary, in order to maintain the webpage's structural integrity. -->
+                <!-- </li> -->
+            <!-- </ul> -->
+            <!-- <div id="shortcut"> -->
+                <!-- <span>Keyboard shortcut for "Show Hidden":</span> -->
+                <!-- <textarea rows="1"></textarea> -->
+                <!-- <img title="Clear" src="img/clear.png"/> -->
+            <!-- </div> -->
+            <ul id="domain_list"></ul>
+            <p id="quote"><em>Simplify the Web.</em></p>
+        </div>
+
+        <div id='templates' style='display: none'>
+            <ul>
+                <li class="domain_rule">
+                    <span class="domain"></span>
+                    <ul class="rule_list"></ul>
+                </li>
+                <li class="rule">
+                    <img class='delete' src="img/delete.png" title='Delete'/>
+                    <textarea class="selectors" readonly disabled rows="1"></textarea>
+                    <span class="select_method">
+                        <select>
+                            <option value="remove">Remove</option>
+                            <option value="invisible">Invisible</option>
+                        </select>
+                    </span>
+                </li>
+            </ul>
+        </div>
+
+    </body>
+    <script src="lib/jquery-1.6.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="lib/keanu.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/cloak.js" type="text/javascript"></script>
+    <script src="js/cloak.options.js" type="text/javascript" charset="utf-8"></script>
+</html>
+
+
+

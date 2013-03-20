@@ -1,0 +1,143 @@
+body {
+    font-size: 0.75em;
+    line-height: 1em;  /* 16px/24px default */
+    color: #505050;
+    background: #FBF6EE;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+    #icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+        margin-top: 5px;
+        float: left;
+    }
+
+    h1 {
+        font-family: Palatino, Georgia, 'Times New Roman', serif;
+        color: #222;
+        font-weight: 200;
+        border-bottom: 2px solid black;
+        padding-bottom: 10px;
+        margin-bottom: 0px;
+    }
+
+    #help {
+        color: #303030;
+        font-size: 13px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+        #help li {
+            margin-top: 5px;
+        }
+        #help strong {
+            font-style: bold;
+            color: #505050;
+            font-weight: 500;
+        }
+        #help em {
+            color: #505050;
+        }
+
+    #shortcut {
+        margin: 7px;
+    }
+        #shortcut span {
+            position: relative;
+            top: -5px;
+            margin-right: 5px;
+        }
+        #shortcut textarea {
+            /* margin-top: 2px; */
+            border: 1px solid #808080;
+            /* white-space: nowrap; */
+            width: 60px;
+            height: 15px;
+            overflow: hidden;
+            resize: none;
+            line-height: 15px;
+            color: #505050;
+            text-align: center;
+        }
+
+        #shortcut img {
+            width: 17px;
+            height: 17px;
+            padding: 1px;
+            margin: 1px;
+            cursor: pointer;
+        }
+
+    #options {
+        background: #eee;
+        border: 1px solid #999;
+        padding: 0 1em;
+        width: 510px;
+        margin: 2em auto;
+        -webkit-box-shadow: 0px 0px 5px #7A7A7A;
+    }
+        #options .domain_rule {
+            border-bottom: 1px solid #ccc;
+            padding: 12px;
+            background: #fff;
+        }
+        #options .domain {
+            font-size: 14px;
+            padding: 1em 0;
+            color: black;
+        }
+
+    .rule_list {
+        padding-left: 20px;
+        padding-top: 12px;
+        list-style-type: none;
+    }
+
+    .delete {
+        width: 17px;
+        height: 17px;
+        padding: 1px;
+        margin: 1px;
+        cursor: pointer;
+    }
+
+    .selectors {
+        border: 1px solid #ECE7E7;
+        white-space: nowrap;
+        width: 350px;
+        height: 15px;
+        overflow: hidden;
+        resize: none;
+        line-height: 15px;
+        color: #282828;
+    }
+
+    #domain_list {
+        padding-left: 0px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        list-style-type: none;
+        margin-top: 0px;
+    }
+
+    .select_method {
+        position: relative;
+        top: -7px;
+    }
+
+
+    #quote {
+        font-style: italic;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    #empty_list_msg {
+        font-size: 15px;
+        border-bottom: 1px solid #ccc;
+        padding: 12px;
+        background: #fff;
+    }
