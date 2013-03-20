@@ -18,3 +18,4 @@ Cloak helps out by providing a useful toolkit:
 * If you are unsatisfied with the last rule, you can easily 'undo' it.
 * You have a choice to completely remove the element or simply make it "invisible" to maintain the structural integrity of the page.
 
+Cloak can be installed from the Google Extension portal: http://goo.gl/2NIrW.
